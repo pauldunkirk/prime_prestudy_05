@@ -1,8 +1,15 @@
 body {
-  background:  #ffffff url(JossWhedon.jpg) right top no-repeat;
-    background-attachment: fixed;
+    background:  #ffffff url(JossWhedon.jpg) right top no-repeat;
+    background-attachment: absolute;
     background-size: contain;
   }
+
+#slideShow {
+  background-attachment: fixed;
+  width:1260px;
+  height: 840px;
+
+}
 
   /*http://www.bestcssbuttongenerator.com/
   I changed a couple of things,
@@ -28,7 +35,7 @@ body {
   	cursor:pointer;
   	color:#ffffff;
   	font-family:Arial;
-  	font-size:30px;
+  	font-size:40px;
   	font-weight: bold;
   	padding:13px 32px;
   	text-decoration:none;
