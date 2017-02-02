@@ -1,11 +1,10 @@
-
 //pre-study week 5 assignment
 var avengersMovie = {
 	name: "Avengers",
 	runtimeInMins: 143,
 	releaseYear: 2012,
 	director: "Joss Whedon",
-	//actors: ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo," "Chris Hemsworth", "Scarlett Johansson", "Jeremy Renner", "Tom Hiddleston", "Clark Gregg", "Cobie Smulders", "Stellan Skarsgård", "Samuel L Jackson"];
+	actors: ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth", "Scarlett Johansson", "Jeremy Renner", "Tom Hiddleston", "Clark Gregg", "Cobie Smulders", "Stellan Skarsgård", "Samuel L Jackson"]
 };
  //I added click requirement and some images and CSS just for fun and practice
 var clicked = function () {
@@ -36,6 +35,7 @@ myImage.onclick = function(){
 }
 }; //I'm not sure why, but if I delete this curly brace, the whole thing doesn't work
 //It's not about the semi-colon: if I delete that, it still works... hmm....
+//also, var clicked above is missing a curly brace and if I put this one there, the stuff below it stops working
 
 // trying a little jQuery
 //$(document).ready(function(){
